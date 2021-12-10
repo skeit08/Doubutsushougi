@@ -10,7 +10,7 @@ void setup() {
 
 void draw() {
   board.draw();
-  komaList.draw();
+  KomaList.draw();
 }
 void mouseReleased() {
   int x = mouseX/SQUARESIZE;
