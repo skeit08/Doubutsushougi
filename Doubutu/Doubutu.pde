@@ -10,5 +10,5 @@ void setup() {
 
 void draw() {
   board.draw();
-  KomaList.draw();
+  komaList.draw();
 }
