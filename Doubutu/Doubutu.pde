@@ -12,3 +12,8 @@ void draw() {
   board.draw();
   komaList.draw();
 }
+void mouseReleased() {
+  int x = mouseX/SQUARESIZE;
+  int y = mouseY/SQUARESIZE;
+  board.select(x, y);
+}
